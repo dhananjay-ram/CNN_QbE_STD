@@ -50,7 +50,7 @@ class ClassifierCNN(nn.Module):
 
 	def forward(self, x):
 		x = self.maxpool(x)
-		x = F.relu(self.dout_layer(self.conv1(x)))
+		x = F.relu(self.dout_layer2d(self.conv1(x)))
 		x = F.relu(self.maxpool(self.dout_layer2d(self.conv2(x))))
 		x = F.relu(self.dout_layer2d(self.conv3(x)))
 		x = F.relu(self.maxpool(self.dout_layer2d(self.conv4(x))))
