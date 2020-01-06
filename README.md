@@ -13,7 +13,7 @@ and values are the features in matrix format.
 ## Training
 
 ```
-python query_detection_dtw_cnn.py -optim adam -learning_rate 0.0001 -input_size 152 -batch_size 50 -layers 9 -depth 30 -dropout 0.2 -loss_threshold 0.1 -n_valid 50 -max_batch_dev 250 -max_batch_train 1000
+python query_detection_dtw_cnn.py -optim adam -learning_rate 0.0001 -input_size 152 -batch_size 50 -depth 30 -dropout 0.2 -loss_threshold 0.1 -n_valid 50 -max_batch_dev 250 -max_batch_train 1000
 ```
 
 ## Evaluation
