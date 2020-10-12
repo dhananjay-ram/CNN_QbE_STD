@@ -34,4 +34,4 @@ python query_detection_dtw_cnn_evaluation.py -input_size 152 -depth 30 -load_mod
 
 ## Contact:
 
-dhananjay.ram@idiap.ch
+dhananjay.iem@gmail.com 
